@@ -66,6 +66,11 @@ public class Othello {
 	
 	public static void makeMove(int x, int y, char piece) {
 		BOARD[x][y] = piece;
+		doFlips();
+	}
+	
+	public static void doFlips() {
+		//TODO
 	}
 	
 	public static boolean nearPiece(int x, int y, boolean turnBool) {
